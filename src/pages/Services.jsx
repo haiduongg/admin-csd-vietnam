@@ -1,17 +1,15 @@
 import { Helmet } from 'react-helmet-async';
 import HeadingPage from '../components/HeadingPage';
 
-function Dashboard() {
+export default function Services() {
   return (
     <>
       <Helmet>
-        <title>Dashboard Page</title>
+        <title>Services Management</title>
       </Helmet>
       <div>
-        <HeadingPage title='Dashboard' />
+        <HeadingPage title='Services Management' />
       </div>
     </>
   );
 }
-
-export default Dashboard;

@@ -36,7 +36,7 @@ export default {
           900: '#0F0F0F',
           full: '#000',
         },
-        dark: '#0F0F0F',
+        dark: '#1b1b22',
         text: '#1B1464',
         textContrast: '#f3f0e3',
         primary: {
